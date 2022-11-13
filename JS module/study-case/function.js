@@ -20,15 +20,32 @@ const mahasiswa = [
   },
 ];
 
-/** 1 :
- * Buatlah sebuah function tanpa parameter yang berfungsi untuk
- * menampilkan nilai uas mk Pemrograman Web pada Array of Object mahasiswa
- */
-// TODO 1: Ketikkan kode Anda di bawah ini!
+// console.log(mahasiswa.length)
+// data2=mahasiswa.length;
+// /** 1 :
+//  * Buatlah sebuah function tanpa parameter yang berfungsi untuk
+//  * menampilkan nilai uas mk Pemrograman Web pada Array of Object mahasiswa
+//  */
+// // TODO 1: Ketikkan kode Anda di bawah ini!
 
-/** 2 :
- * Buatlah sebuah function dengan parameter nama yang berfungsi untuk
- * menampilkan nilai uas mk Pemrograman Web pada Array of Object mahasiswa
- * berdasarkan nama mahasiswa
- */
+// function tampilNilaiProgram(){
+// console.log(mahasiswa[0],mk[0]);
+// }
+
+// tampilNilaiProgram();
+// /** 2 :
+//  * Buatlah sebuah function dengan parameter nama yang berfungsi untuk
+//  * menampilkan nilai uas mk Pemrograman Web pada Array of Object mahasiswa
+//  * berdasarkan nama mahasiswa
+//  */
 // TODO 2: Ketikkan kode Anda di bawah ini!
+function tampilNilaiProgram(data){
+  console.log(data.length);
+  for (let index = 0; index <data.length; index++) {
+    console.log(data[index].nama,":" ,data[index].mk[0].uas);
+  }
+}
+
+// tampilkanNilai();
+tampilNilaiProgram(mahasiswa);
+
