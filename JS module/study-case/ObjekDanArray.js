@@ -9,6 +9,7 @@ var mahasiswa = ["Nanang Restu",2020, "UIN AR-RANIRY"];
 /** 2 : Tampilkan array mahasiswa */
 // TODO 2: Ketikkan kode Anda di bawah ini!
 console.log(mahasiswa);
+
 /** 3 :
  * Setelah membuat Array mahasiswa, tambahkan satu buah object dengan property yang sama seperti object sebelumnya
  * dengan menggunakan Array methods.
@@ -19,12 +20,16 @@ nama: 'Nasruddin Said',
 satambuk: 2020,
 instansi: 'Uin AR-RANIRY'
 });
+
 /** 4 : Hapus index 1 pada Array mahasiswa dengan menggunakan Array methods */
 // TODO 4: Ketikkan kode Anda di bawah ini!
-mahasiswa.splice(1,1);
+mahasiswa.slice(1, 1);
 
 /** 5 : Tampilkan array mahasiswa dengan menggunkan for loop atau yang sejenisnya */
 // TODO 5: Ketikkan kode Anda di bawah ini!
+for (let index = 0; index < mahasiswa.length; index++) {
+  console.log(mahasiswa[index]);
+}
 
 for(let index = 0; index < mahasiswa.length; index++){
     console.log(mahasiswa[index]);
